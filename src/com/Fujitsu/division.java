@@ -1,18 +1,23 @@
 package com.Fujitsu;
-import java.util.Scanner;
-public class division {
-	  public static void main(String[] args) 
-	  {
-	    Scanner input = new Scanner (System.in);
-	    System.out.print("Input the first number: ");
-	    int a = input.nextInt();
-	    System.out.print("Input the second number: ");
-	    int b = input.nextInt();
-	    int d = (a/b);
-	    System.out.println();
-	    System.out.println("The division of a and b is:" +d);
-	  }
+   public class division {
+int a,b,c;
+
+  public division(int a, int b) {
+ super();
+    this.a = a;
+    this.b = b;
+	 }
+     public void div(){
+     c=a/b;
+
+      }
+	@Override
+    public String toString() {
+	return "division=" +c;
+	
+}
 	}
+	 
 	
 
 		
