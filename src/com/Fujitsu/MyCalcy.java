@@ -26,12 +26,27 @@ public class MyCalcy {
 		int choice=sc.nextInt();
 		switch(choice)
 		{
+ 
+		case 1: 
+ 
 		case 1:
-	
+ 
 			break;
 		case 2:
 			break;
+ 
 		case 9:
+            break;
+		case 3:
+			break;
+		case 4:
+			break;
+		case 5:
+			break;
+		case 6:
+			break;
+		case 7:Cube c= new Cube(5);
+        System.out.println(c);
 			break;
 		}
 	}
