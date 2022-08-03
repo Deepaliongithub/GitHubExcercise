@@ -29,51 +29,7 @@ public class MyCalcy {
 		case 1:
 			break;
 		case 2:
-			
 			break;
-		case 3:
-			
-			break;
-		case 4:
-			
-			break;
-		case 5:
-			
-			break;
-		case 6:  System.out.println("Enter a Number");
-		double x =  sc.nextDouble();
-        System.out.println(Math.sqrt(x));
-			
-			break;
-		case 7:
-			
-			break;
-		case 8:
-			
-			break;
-		case 9:
-			
-			break;
-		case 10:
-			
-			break;
-		case 11:
-			
-			break;
-		case 12:
-			
-			break;
-		case 13:
-			
-			break;
-		case 14:
-			
-			break;
-		case 15:
-			
-			break;
-			
-			default: System.out.println("Enter from the given choice");
 		}
 	}
 
