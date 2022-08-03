@@ -31,6 +31,8 @@ public class MyCalcy {
 			break;
 		case 2:
 			break;
+		case 9:
+			break;
 		}
 	}
 
