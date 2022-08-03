@@ -1,16 +1,25 @@
 package com.Fujitsu;
-
-import java.util.Scanner;
-
 public class CosFunction  
 {  
-    public static void main(String[] args)   
-    {  
-    	 Scanner input = new Scanner (System.in);
-    	    System.out.print("Enter  number: ");
-    	    double a = input.nextInt();
-           double b = Math.toRadians(a);  
-        System.out.println(Math.cos(b));  
-    }  
+   double a,b;
+	
+ public CosFunction(double a, double b) {
+		super();
+		this.a = a;
+		this.b = b;
+	}
+
+     public void cos()
+     {
+    	 double b = Math.toRadians(a);
+     }
+     
+     
+	@Override
+	public String toString() 
+	{
+		cos();
+		return "CosFunction = "+b;
+	}
 }  
 
